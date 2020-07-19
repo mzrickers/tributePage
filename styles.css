@@ -1,7 +1,17 @@
 
+#title, #img-caption, #tribute-info {
+    text-align: center;
+}
+
+/* you need to change references and images to block before you can align them */
+#tribute-link {
+    display: block; 
+    text-align: center;
+}
 
 #image {
     max-width: 100%;
     display: block;
-    align-items: center;
+    /* margin: 0 auto; */
+    text-align: center;
 }
